@@ -1,0 +1,135 @@
+html{
+    background-color:pink;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:40px;
+    padding: 40px;
+    color:black;
+    border-top:10px solid #242424 ;
+    background-color: rgb(253, 255, 136);
+}
+
+h1{
+    font-size: 3em;
+    margin: 0px;
+
+}
+
+
+h2{
+    font-size: 1em;
+    margin: 1px;
+
+}
+h3{
+    font-size: 2em;
+}
+h6{
+    font-size: 0.5em;
+    margin: 1px;
+}
+
+a:hover{
+    color: turquoise;
+}
+
+a:active{
+    color:yellow;
+}
+
+a:link{
+    color: salmon;
+}
+
+a:visited{
+    font-weight: bold;
+    color: black;
+}
+
+.h{
+    background-color: plum;
+    position: sticky;
+    top: 0px;
+}
+
+.img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+    height: 50px;
+    width: 50px;
+}
+
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 0.8cm;
+    width: 600px;
+}
+
+#header{
+    color: rgb(243, 238, 231);
+}
+#blog{
+    border-top: 10px dotted #ccc;
+    
+}
+
+#blog2{
+    border-top: 10px dotted #ccc;
+}
+
+.blog-post{
+    border-top:10px dotted #ccc;
+    margin: 20px;
+}
+
+.ul{
+    font-size: 1.6em;
+    font:bold;
+    margin-left: 4px;
+}
+
+
+header{
+    background-color: rgb(98, 150, 150);
+}
+
+section{
+    background-color: #ccc;
+    display: flex;
+    
+
+}
+
+article{
+    background-color: rgb(223, 210, 210);
+    padding: 20px;
+    margin: 20px;
+}
+
+article:nth-of-type(1){
+    flex: 1;
+}
+article:nth-of-type(2){
+    flex: 3;
+}
+article:nth-of-type(3){
+    flex: 1;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    #header{
+        background-color: yellow;
+    }
+
+    section{
+        background-color: white;
+    }
